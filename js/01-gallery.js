@@ -21,6 +21,7 @@ function createMarkup(galleryItems) {
     })
     .join("");
 }
+
 function handleGalleryClick(e) {
   if (e.target === e.currentTarget) {
     return;
