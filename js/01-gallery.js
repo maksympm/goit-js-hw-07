@@ -23,7 +23,7 @@ function createMarkup(galleryItems) {
 }
 
 function handleGalleryClick(e) {
-  if (e.target === e.currentTarget) {
+  if (e.target.nodeName !== "IMG") {
     return;
   }
   e.preventDefault();
